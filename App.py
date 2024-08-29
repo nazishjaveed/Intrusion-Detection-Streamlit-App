@@ -27,9 +27,10 @@ def introduction_page():
     )
     st.subheader("Project Discription")
 
-    st.write("""This project focuses on building an Intrusion Detection System (IDS) designed to monitor and analyze network traffic. The goal of the IDS is to classify network connections as either normal or malicious (attack) based on various input features. By leveraging machine learning techniques, particularly the Random Forest algorithm, the system is trained to detect potential threats in real-time, 
-             thereby enhancing network security. The project also emphasizes the importance of thorough data preprocessing, feature selection, 
-             and model evaluation to ensure high accuracy and reliability in identifying cyber threats. """)
+    st.write("""he proposed Project aims to develop an Optimizing Intrusion Detection System (IDS) utilizing Machine Learning (ML) techniques along with Feature Selection. Securing computer systems and networks is of utmost importance in today's interconnected world. Traditional methods of intrusion detection are often insufficient, necessitating the use of advanced technologies.
+Internet, mobile, e-commerce, PC-based communication, and information systems have become parts of daily life. Wide usage of these systems makes communication easier, increases data transfer and information sharing, and improves life quality. Although these systems are used in many fields, they suffer from various attacks such as viruses, worms, and Trojan horses. Due to the importance of these systems, these attacks must be identified and stopped as soon as possible.
+ Intrusion detection plays a crucial role in safeguarding systems and networks from unauthorized access, and my project aims to contribute to this field.
+Machine learning serves as a powerful tool in intrusion detection due to its ability to learn and adapt to evolving threats. It can analyze large datasets and identify challenging patterns for traditional rule-based systems. For this project, we used the NUSW-NB 15 dataset, a widely recognized dataset in the field of intrusion detection. """)
 
     st.subheader("Problem Statement")
 
