@@ -25,11 +25,13 @@ def introduction_page():
         """,
         unsafe_allow_html=True
     )
-    st.subheader("Project Discription")
+    st.subheader("Project Description")
 
-    st.write("""This project focuses on building an Intrusion Detection System (IDS) designed to monitor and analyze network traffic. The goal of the IDS is to classify network connections as either normal or malicious (attack) based on various input features. By leveraging machine learning techniques, particularly the Random Forest algorithm, the system is trained to detect potential threats in real-time, 
-             thereby enhancing network security. The project also emphasizes the importance of thorough data preprocessing, feature selection, 
-             and model evaluation to ensure high accuracy and reliability in identifying cyber threats. """)
+    st.write("""The proposed project aims to develop an Optimized Intrusion Detection System (IDS) utilizing Machine Learning (ML) techniques along with Feature Selection. Securing computer systems and networks is of utmost importance in today's interconnected world. Traditional methods of intrusion detection are often insufficient, necessitating the use of advanced technologies.
+    
+    The Internet, mobile, e-commerce, PC-based communication, and information systems have become parts of daily life. The widespread usage of these systems makes communication easier, increases data transfer and information sharing, and improves life quality. However, these systems are vulnerable to various attacks, such as viruses, worms, and Trojan horses. Given the importance of these systems, it is crucial to identify and stop these attacks as soon as possible.
+    
+    Intrusion detection plays a crucial role in safeguarding systems and networks from unauthorized access, and this project aims to contribute significantly to this field. Machine learning serves as a powerful tool in intrusion detection due to its ability to learn and adapt to evolving threats. It can analyze large datasets and identify challenging patterns for traditional rule-based systems. For this project, we used the NUSW-NB 15 dataset, a widely recognized dataset in the field of intrusion detection.""")
 
     st.subheader("Problem Statement")
 
@@ -51,8 +53,7 @@ def introduction_page():
 
     st.subheader("Conclusion")
 
-    st.write(""" The development of this Intrusion Detection System (IDS) demonstrates the effectiveness of machine learning in enhancing network security. By accurately classifying network traffic as normal or malicious, the IDS provides a critical layer of defense against cyber threats. The use of the Random Forest algorithm, combined with thorough data analysis and feature selection, resulted in a high-accuracy model capable of real-time threat detection. This project not only addresses the growing need for advanced security measures but also showcases the potential of data-driven approaches in protecting digital infrastructures.
- """)
+    st.write("""The development of this Intrusion Detection System (IDS) demonstrates the effectiveness of machine learning in enhancing network security. By accurately classifying network traffic as normal or malicious, the IDS provides a critical layer of defense against cyber threats. The use of the Random Forest algorithm, combined with thorough data analysis and feature selection, resulted in a high-accuracy model capable of real-time threat detection. This project not only addresses the growing need for advanced security measures but also showcases the potential of data-driven approaches in protecting digital infrastructures.""")
 
 
 def model_page():
