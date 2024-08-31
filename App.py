@@ -44,7 +44,7 @@ def introduction_page():
               2. Ahmed
               3. Nazish Javed
               4. Hawa
-              5. Basit Ali
+             
     """)
 
     st.subheader("Conclusion")
